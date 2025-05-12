@@ -10,9 +10,20 @@ const HeroSection = () => {
       
       <div className="container mx-auto text-center z-10 mt-16">
         <p className="font-mont text-soft-gray text-lg mb-4 opacity-0 animate-fade-in" style={{ animationDelay: '0.2s' }}>Hello, I am</p>
-        <h1 className="font-playfair text-5xl md:text-7xl lg:text-8xl font-bold text-deep-blue mb-6 opacity-0 animate-fade-in" style={{ animationDelay: '0.4s' }}>
-          Harikrishnan Viswanath
-        </h1>
+        <h1
+            className="font-mont text-deep-blue opacity-0 animate-fade-in"
+            style={{
+              fontSize: 'clamp(3rem, 6vw, 10rem)',
+              fontWeight: 900,
+              lineHeight: 0.9,
+              letterSpacing: '-4px',
+              marginBottom: '2rem',
+              animationDelay: '0.4s'
+            }}
+          >
+            Harikrishnan Viswanath
+          </h1>
+
         <h2 className="font-mont text-2xl md:text-3xl text-deep-blue font-light mb-6 opacity-0 animate-fade-in" style={{ animationDelay: '0.6s' }}>
           Fullstack Developer
         </h2>

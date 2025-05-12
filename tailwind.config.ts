@@ -20,8 +20,9 @@ export default {
 		},
 		extend: {
 			fontFamily: {
-				'playfair': ['"Playfair Display"', 'serif'],
+				'playfair': ['"Montserrat"', 'serif'],
 				'mont': ['Montserrat', 'sans-serif'],
+				'pop': ['Poppins', 'sans-serif']
 			},
 			colors: {
 				'deep-blue': '#1A1F2C',

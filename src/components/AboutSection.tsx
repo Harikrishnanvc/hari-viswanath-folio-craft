@@ -1,5 +1,6 @@
 
 import React from 'react';
+import IMG from './IMG_2187 2 Large.jpeg'
 
 const AboutSection = () => {
   return (
@@ -12,7 +13,11 @@ const AboutSection = () => {
             <div className="aspect-square max-w-md mx-auto md:mx-0 rounded-full overflow-hidden border-4 border-light-gray">
               {/* Placeholder for profile image */}
               <div className="w-full h-full bg-light-gray flex items-center justify-center">
-                <span className="font-playfair text-4xl text-deep-blue">HV</span>
+              <img
+                src={IMG}
+                alt="HV"
+                className="w-full h-auto"
+              />
               </div>
             </div>
           </div>
