@@ -35,7 +35,7 @@ const ProjectsSection = () => {
           {projects.map((project, index) => (
             <div 
               key={project.id} 
-              className="project-card opacity-0 animate-fade-in"
+              className="project-card group opacity-0 animate-fade-in"
               style={{ animationDelay: `${0.2 + index * 0.2}s` }}
             >
               <img 
@@ -44,7 +44,7 @@ const ProjectsSection = () => {
                 className="w-full h-64 object-cover"
               />
               
-              <div className="project-overlay text-white">
+              <div className="project-overlay group-hover:opacity-100 text-white">
                 <h3 className="font-playfair text-2xl font-bold mb-3">{project.title}</h3>
                 <p className="font-mont text-sm mb-4 text-center">{project.description}</p>
                 <div className="flex flex-wrap justify-center gap-2 mb-6">

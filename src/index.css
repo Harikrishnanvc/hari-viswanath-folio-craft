@@ -82,11 +82,11 @@
   }
   
   .project-card {
-    @apply relative overflow-hidden rounded-lg shadow-lg group;
+    @apply relative overflow-hidden rounded-lg shadow-lg;
   }
   
   .project-overlay {
-    @apply absolute inset-0 bg-deep-blue bg-opacity-90 flex flex-col items-center justify-center p-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300;
+    @apply absolute inset-0 bg-deep-blue bg-opacity-90 flex flex-col items-center justify-center p-6 opacity-0 transition-opacity duration-300;
   }
   
   .animate-on-scroll {
