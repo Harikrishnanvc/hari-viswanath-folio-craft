@@ -21,6 +21,7 @@ const Navbar = () => {
     <header className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${scrolled ? 'py-4 bg-white shadow-md' : 'py-6 bg-transparent'}`}>
       <div className="container mx-auto flex justify-between items-center px-6 md:px-12">
         <a href="#" className="font-playfair text-xl md:text-2xl font-bold text-deep-blue">HV.</a>
+
         
         <nav className="hidden md:block">
           <ul className="flex gap-8">
